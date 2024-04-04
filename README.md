@@ -63,5 +63,123 @@
 
 
 </body>
+<style>
+    h1{
 
+    position: relative;
+    margin-top: -80px;
+    margin-left: 40px;
+    font-family: Comic Sans MS;
+}
+h2{
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-top: -800px;
+    margin-left: 30px;
+    font-family: Verdana;
+}
+h3{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  margin-top: -160px;
+  margin-left: 65px;
+  font-family: Comic Sans MS;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 0px 93px;
+    margin-top: 450px;
+  }
+   
+  .gallery img {
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 1s;
+  } 
+
+  .gallery img:hover {
+    transform: scale(1.2);
+   }
+
+  .image-container {
+    background-image: url(https://d37e98a2-3644-435d-b7be-ef61b4252a03.selcdn.net/uo/aiwoo_uo1/images/big_screen/3b/04/3b041d522f1a44d0b22570444e59b501.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 110%;
+    height: 1000px;
+    margin-left: -90px;
+    margin-top: -50px;
+    display:block;
+  }
+  .image-container1 {
+    background-color: rgb(1, 115, 193);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 110%;
+    height: 1000px;
+    margin-left: -90px;
+    margin-top: 50px;
+    display:block;
+  }
+  .image-container2 {
+    background-color: rgb(1, 115, 193);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 950px;
+    margin-left: 1030px;
+    margin-top: -1400px;
+    display:block;
+    border-radius: 800px;
+  }
+  .image-container3 {
+    background-color: rgba(0, 0, 0, 0.534);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+    margin-left: -100;
+    border-radius: 10px;
+  }
+  .image-container4 {
+    background-image: url(ajnj/2024-02-23_23-11-00.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    margin-left: 1500px;
+    margin-top: -1800px;
+    display:block;
+    border-radius: 20px;
+  }
+  img, svg {
+    vertical-align: middle;
+}
+.image-container2 img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 880px;
+  margin-left: -920px;
+  margin-top: 500px;
+  border-radius: 20px;
+}
+h5{
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  margin-top: -960px;
+  margin-left: -500px;
+  font-family: Verdana;
+}
+body{
+  overflow-x: hidden
+}
+</style>
 </html>
